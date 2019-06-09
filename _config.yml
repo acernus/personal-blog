@@ -45,7 +45,7 @@ highlight:
 
 #### Markdown Processors
 ## 'redcarpet' is unsupported on GitHub Pages now.
-markdown: kramdown
+markdown: redcarpet
 kramdown:
     input: GFM
 
@@ -118,7 +118,7 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
+  categories: /categories/
   #about: /about/
   archives: /archives/
   tags: /tags/
@@ -373,7 +373,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: aa2b62c275ee6dc4991626532270b5e5
 
 # Duoshuo ShortName
 #duoshuo_shortname:
